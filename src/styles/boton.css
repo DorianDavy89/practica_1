@@ -1,0 +1,29 @@
+button{
+    width: 175px;
+    height: 50px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    /*background-color: aqua;*/
+    transform: scale(1.5);
+}
+
+.button-liked{
+    background-color: blue;
+    transition: all 0.3s;
+}
+
+.button-disliked{
+    background-color: violet;
+    transition: all 0.3s;
+}
+
